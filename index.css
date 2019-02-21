@@ -1,0 +1,76 @@
+
+
+a:link {
+    text-decoration: none;
+    color: #DB9A1C;
+    font-family:'Permanent Marker', cursive;
+  }
+
+  a:visited{
+    text-decoration: none;
+    color: #DB9A1C;
+  }
+
+  a:hover {
+    color: #FFFFFF;
+  }
+
+#container{
+    justify-content: center;
+    position: absolute;
+ }
+ 
+ .top-left {
+     position: absolute;
+     animation-delay: 1s;
+     top: 50px;
+     left: 50px;
+     font-family: initial;
+     font-size: 35px;
+     color: white;
+   }
+ 
+   .bottom-left {
+     position:absolute;
+     animation-delay: 1.5s;
+     top:175px;
+     left: 50px;
+     font-size: 35px;
+     color:white;
+   }
+   .bottom-left2 {
+    position:absolute;
+    animation-delay:2s;
+    top:300px;
+    left: 50px;
+    font-size: 35px;
+    color:white;
+  }
+
+  .top-right {
+    position:absolute;
+    display:flex;
+    flex-wrap: wrap;
+    top:175px;
+    left: 600px;
+    text-align: center;
+    font-size: 125px;
+    color:white;
+    font-family: 'Permanent Marker', cursive;
+  }
+
+  @media (max-width:790px)
+{
+    .top-right {
+        top:580px;
+        left: 50px;
+        font-size: 35px;
+        color:white;
+        text-align: center;
+        font-size: 40px;
+        color:white;
+        font-family: 'Permanent Marker', cursive;
+      }
+
+ 
+}
