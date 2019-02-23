@@ -1,6 +1,5 @@
-
 body{
-    background-image: url(/images/coffeeshop.svg);
+    background-image: url(./images/coffeecups.svg);
     display: flex;
     background-size: cover;
     position: absolute;
@@ -57,38 +56,26 @@ body{
 
   .top-right{
     position: absolute;
-    top: 20px;
-    left: 600px;
+    top: 70px;
+    left: 1000px;
+   
   }
 
-  h1{
-    text-align: center;
-    font-family: 'Permanent Marker', cursive;
-    color: black;
-    font-size: 70px;
-    padding: 5px;
-    margin: 2px;
+  .top-right2{
+      position:absolute;
+      top:250px;
+      left:1200px;
   }
 
-  .bottom-right{
-    animation-delay: 3s;
+  .top-right3{
+      position:absolute;
+      left:1000px;
+      top:475px;
   }
 
-  h3{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #DB9A1C;
-    font-size: 50px;
+  h2{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 50px;
   }
 
-  h3:hover{
-    color: white;
-  }
-
-  p{
-    text-align: center;
-    margin: 40px;
-    color: #EDEDED;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
+  

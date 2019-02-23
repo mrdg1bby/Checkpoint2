@@ -58,11 +58,11 @@ a:link {
     position:absolute;
     display:flex;
     flex-wrap: wrap;
-    top:50px;
+    top:20px;
     left: 600px;
     text-align: center;
     font-size: 125px;
-    color:white;
+    color: black;
     font-family: 'Permanent Marker', cursive;
   }
 
@@ -70,10 +70,10 @@ a:link {
     position:absolute;
     display:flex;
     flex-wrap: wrap;
-    top:425px;
+    top:400px;
     left: 775px;
     text-align: center;
     font-size: 100px;
-    color: #DB9A1C;
-    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-family: 'Permanent Marker',cursive;
   }
