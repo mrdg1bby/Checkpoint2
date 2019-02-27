@@ -1,0 +1,323 @@
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+  }
+  
+  img{
+    width: 110%;
+    height:auto;
+  }
+  
+  
+  body {
+  padding: 16px;
+    margin: 0;
+    background-color: #757575
+  }
+  
+  h1{
+    font-family: "Permanent Marker",cursive;
+    color:orange;
+    text-align: center;
+    font-size: 100px;
+    margin-bottom:5px;
+    padding-top:0;
+    
+  }
+  
+  h3{
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h3 a {
+    text-decoration: none;
+    font-family:"Permanent Marker", cursive;
+    padding: 10px;
+  }
+  
+  p{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    size: 20px;
+  }
+  
+  h6{
+      font-size: 40px;
+      color: black;
+      font-family: 'Permanent Marker',cursive;
+  }
+    nav a {
+    display: inline;
+    color: rgb(123, 3, 192);
+    padding: 30px;
+    text-decoration: none;
+    font-family: "Permanent Marker", cursive;
+    font-size: 50px;
+  }
+  a:hover{
+      color:white;
+  }
+  .nav{
+      text-align: center;
+      margin-top: 10px;
+      grid-area: nav;
+      justify-items: center;
+  }
+  
+  
+  
+  
+  .wrapper {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 1fr auto;
+    grid-template-rows: 10% 1fr 80% ;
+    grid-template-areas:
+    "nav      nav"
+        "sidebar 	main"
+        "sidebar   main";
+  
+  width: 100%;
+  margin-left: auto;
+    margin-right: auto;
+    justify-items: stretch;
+  
+  }
+  
+  .footer{
+    grid-area:footer ;
+    text-align: center;
+    height:50px;
+    margin-top: 20px;
+    margin-bottom:50px;
+    
+   
+  }
+  
+  .main {
+  grid-area: main;
+    padding: 50px;
+    justify-content: center;
+    
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  
+  body {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  
+  
+  .aside {
+    grid-area: sidebar;
+    margin-bottom: 0;
+       
+  }
+  
+  
+  
+  @media (max-width:1329px){
+    .wrapper {
+    display: flex;
+    flex-direction: column;
+    }
+    nav a{
+        font-size: 50px;
+        display:inline;
+    }
+  
+    h6{
+        font-size:25px;
+    }
+  
+    img{
+        width: 50%;
+        height:auto;
+    }
+  .header {
+        order: 1;
+    }
+    
+  .main {
+    order: 3;
+  }
+  .aside {
+        order: 2; 
+        margin-left: 40px;
+    }
+  
+    .footer{
+        order:4;
+    }
+  }
+  
+  @media (max-width:880px){
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  nav a{
+    font-size: 40px;
+    display:inline;
+  }
+  
+  h6{
+    font-size:25px;
+  }
+  
+  img{
+    width: 50%;
+    height:auto;
+  }
+  .header {
+    order: 1;
+  }
+  
+  .main {
+    order: 3;
+  }
+  .aside {
+    order: 2; 
+    margin-left: 40px;
+  }
+  
+  .footer{
+    order:4;
+  }
+  }
+  
+  @media (max-width: 575px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    }
+    nav a{
+        font-size: 20px;
+        display:inline;
+    }
+  
+    h6{
+        font-size:15px;
+    }
+  .header {
+        order: 1;
+    }
+    
+  .main {
+    order: 3;
+  }
+  .aside {
+        order: 2; 
+        margin-left: 40px;
+    }
+  
+    .footer{
+        order:4;
+    }
+    
+  }
+  
+  @media (max-width: 676px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    }
+    a{
+        font-size: 30px;
+        display:inline;
+    }
+  
+    h6{
+        font-size:15px;
+    }
+  .header {
+        order: 1;
+    }
+    
+  .main {
+    order: 3;
+  }
+  .aside {
+        order: 2; 
+        margin-left: 40px;
+    }
+  
+    .footer{
+        order:4;
+    }
+    
+  }
+  
+  @media (max-width: 460px) {
+   
+    .wrapper {
+    display: flex;
+    flex-direction: column;
+    }
+    nav a{
+        font-size: 20px;
+        display:block;
+        padding:5px;
+    }
+  
+    h1{
+        font-size: 75px;
+    }
+    h6{
+        font-size:15px;
+    }
+    h3{
+        font-size:50px;
+    }
+  
+    h5{
+        font-size:50px;
+    }
+  .header {
+        order: 1;
+    }
+    
+  .main {
+    order: 3;
+  }
+  .aside {
+        order: 2; 
+        margin-left: 40px;
+    }
+  
+    .footer{
+        order:4;
+    }
+    
+  }
+  
+  @media (max-width: 403px){
+    h6{
+        font-size:10px;
+    }
+  
+    h1{
+        font-size:50px;
+    }
+  
+    h3{
+        font-size:50px;
+    }
+    h5{
+        font-size:30px;
+    }
+  }
